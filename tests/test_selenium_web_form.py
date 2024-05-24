@@ -1,4 +1,4 @@
-"""Basic sample test """
+"""Basic sample test"""
 
 import uuid
 import pytest
@@ -22,3 +22,7 @@ def test_write_to_text_area_and_submit():
     assert message == expected_message
 
     driver.quit()
+
+
+if __name__ == "__main__":
+    pytest.main()
