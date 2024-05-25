@@ -2,23 +2,26 @@
 name = "python"
 version = "1.0.0"
 dependencies = [
-  "selenium",
-  "pytest"
+  "pytest",
+  "pytest-html",
+  "selenium"
 ]
 requires-python = ">=3.12"
 authors = [
-  {name = "Alex"}
+  {name = "Alex Duta"}
 ]
 maintainers = [
-  {name = "Alex"}
+  {name = "Alex Duta"}
 ]
 description = "Learn Selenium with Python"
 readme = "README.md"
 
 [project.urls]
-Repository = "https://github.com/TechWithAlexDuta/vs_code_selenium.git"
+Repository = "https://github.com/TechWithAlexDuta/selenium-webdriver-python.git"
 
 [tool.pytest.ini_options]
+log_cli = true
+log_cli_level = "INFO"
 markers = [
     "selenium",
     "selenium_pom"
