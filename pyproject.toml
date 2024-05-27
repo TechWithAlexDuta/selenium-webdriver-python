@@ -24,5 +24,6 @@ log_cli = true
 log_cli_level = "INFO"
 markers = [
     "selenium",
-    "selenium_pom"
+    "selenium_pom",
+    "selenium_parallel"
 ]

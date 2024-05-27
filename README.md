@@ -21,6 +21,7 @@ Tutorials and sample web automation tests project using Selenium and Python
     pytest .\tests\test_selenium_web_form.py
     pytest -m selenium
     pytest -m selenium_pom --html=results.html
+    pytest -m selenium_parallel -n auto --html=report.html
     ```
 
 ## Tech
