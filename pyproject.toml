@@ -25,5 +25,6 @@ log_cli_level = "INFO"
 markers = [
     "selenium",
     "selenium_pom",
-    "selenium_parallel"
+    "selenium_parallel",
+    "selenium_data_driven"
 ]

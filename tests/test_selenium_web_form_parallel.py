@@ -9,6 +9,8 @@ from pom.web_form_page import WebFormPage
 
 LOGGER = logging.getLogger(__name__)
 
+# run tests in parallel and generate html report: pytest -m selenium_parallel -n auto --html=report.html
+
 
 @pytest.mark.selenium_parallel
 def test_write_to_text_area_and_submit_parallel1(browser):
