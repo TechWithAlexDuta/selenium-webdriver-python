@@ -1,9 +1,10 @@
 [project]
-name = "python"
+name = "selenium_webdriver_python"
 version = "1.0.0"
 dependencies = [
   "pytest",
   "pytest-html",
+  "pytest-xdist",
   "selenium"
 ]
 requires-python = ">=3.12"

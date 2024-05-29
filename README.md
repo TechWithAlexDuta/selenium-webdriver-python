@@ -7,8 +7,8 @@ Tutorials and sample web automation tests project using Selenium and Python
     python -V
     ```
 2. Clone this repository to your local machine.
-3. Open folder (`python`) in VS Code. 
-4. Using terminal navigate to a project and run `pip install`
+3. Open folder (`selenium-webdriver-python`) in VS Code. 
+4. Using terminal navigate to project folder and run
     ```PS
     pip install -r requirements.txt
     ```
@@ -16,7 +16,7 @@ Tutorials and sample web automation tests project using Selenium and Python
 ## Usage
 1. Make sure you have the appropriate browser installed (`https://www.selenium.dev/documentation/webdriver/browsers/`)
 2. Open the project directory in VS Code or your preferred IDE. 
-4. Run the tests using your preferred test runner or IDE or from terminal, e.g. use any of the below:
+3. Run the tests using your preferred test runner or IDE or from terminal, e.g. use any of the below:
     ```PS
     pytest .\tests\test_selenium_web_form.py
     pytest -m selenium
